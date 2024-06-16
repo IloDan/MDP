@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Danilo\\Git\\MDP\\Read_int32\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D671AAA-7CB4-4860-91BA-519601157012}|Read_int32.vcxproj|C:\\Users\\Danilo\\Git\\MDP\\Read_int32\\read_int32.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5D671AAA-7CB4-4860-91BA-519601157012}|Read_int32.vcxproj|solutionrelative:read_int32.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "read_int32.cpp",
+              "DocumentMoniker": "C:\\Users\\Danilo\\Git\\MDP\\Read_int32\\read_int32.cpp",
+              "RelativeDocumentMoniker": "read_int32.cpp",
+              "ToolTip": "C:\\Users\\Danilo\\Git\\MDP\\Read_int32\\read_int32.cpp",
+              "RelativeToolTip": "read_int32.cpp",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-16T11:16:15.27Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
