@@ -49,31 +49,6 @@ public:
 
 };
 
-class bit_reader {
-	uint8_t buffer_=0;
-	uint8_t nbit_=0;
-	std::istream& is_;
-
-	uint64_t read_bit() {
-		if (nbit_ == 0) {
-			buffer_ = is_.get();
-			nbit_ = 8;
-		}
-		nbit_--;
-		return (buffer_ >> nbit_) & 1;
-	}
-public:
-	bit_reader(std::istream& is) : is_(is) {}
-
-	uint64_t operator()(int32_t numbit) {
-		uint64_t u = 0;
-		while (numbit-- > 0) {
-			u =(u << numbit) + read_bit();
-		}
-		return u;
-	}
-};
-
 class elias_writer {
 	uint64_t numbit=0;
 	uint64_t map = 0;
@@ -100,6 +75,31 @@ public:
 	}	
 };
 
+class bit_reader {
+	uint8_t buffer_;
+	uint8_t nbit_ = 0;
+	std::istream& is_;
+
+	uint64_t read_bit() {
+		if (nbit_ == 0) {
+			buffer_ = is_.get();
+			nbit_ = 8;
+		}
+		nbit_--;
+		return (buffer_ >> nbit_) & 1;
+	}
+public:
+	bit_reader(std::istream& is) : is_(is) {}
+
+	uint64_t operator()(uint64_t numbit) {
+		uint64_t u = 0;
+		while (numbit-- > 0) {
+			u = (u << 1) | read_bit();
+		}
+		return u;
+	}
+};
+
 class elias_reader {
 	bit_reader br_;
 	int32_t elias(uint64_t num) {
@@ -117,7 +117,7 @@ public:
 		while (br_(1) == 0) {
 			cont++;
 		}
-		int32_t num = (1LL<<cont) + br_(cont);
+		int32_t num = (1LL<<cont) | br_(cont);
 		return elias(num);
 	};
 
