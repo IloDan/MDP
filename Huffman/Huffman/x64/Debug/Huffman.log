@@ -1,0 +1,4 @@
+﻿  huffman.cpp
+C:\Users\Danilo\Git\MDP\Huffman\huffman.cpp(99,25): error C2039: 'for_each': is not a member of 'std::ranges'
+C:\Users\Danilo\Git\MDP\Huffman\huffman.cpp(99,25): error C3861: 'for_each': identifier not found
+C:\Users\Danilo\Git\MDP\Huffman\huffman.cpp(100,27): error C3536: 'fr': cannot be used before it is initialized

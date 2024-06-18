@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{03554BC1-FE7D-4B1D-A9B1-49470457530A}|Huffman.vcxproj|C:\\Users\\Danilo\\Git\\MDP\\Huffman\\huffman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{03554BC1-FE7D-4B1D-A9B1-49470457530A}|Huffman.vcxproj|solutionrelative:huffman.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Danilo\\Git\\MDP\\Elias\\elias.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "elias.cpp",
+              "DocumentMoniker": "C:\\Users\\Danilo\\Git\\MDP\\Elias\\elias.cpp",
+              "RelativeDocumentMoniker": "..\\Elias\\elias.cpp",
+              "ToolTip": "C:\\Users\\Danilo\\Git\\MDP\\Elias\\elias.cpp",
+              "RelativeToolTip": "..\\Elias\\elias.cpp",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAJQAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-17T16:58:31.094Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +39,7 @@
               "RelativeDocumentMoniker": "huffman.cpp",
               "ToolTip": "C:\\Users\\Danilo\\Git\\MDP\\Huffman\\huffman.cpp",
               "RelativeToolTip": "huffman.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACgAAAASAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-17T15:23:04.691Z",
               "EditorCaption": ""
