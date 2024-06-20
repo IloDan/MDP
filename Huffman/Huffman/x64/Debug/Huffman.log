@@ -1,4 +1,14 @@
 ﻿  huffman.cpp
-C:\Users\Danilo\Git\MDP\Huffman\huffman.cpp(99,25): error C2039: 'for_each': is not a member of 'std::ranges'
-C:\Users\Danilo\Git\MDP\Huffman\huffman.cpp(99,25): error C3861: 'for_each': identifier not found
-C:\Users\Danilo\Git\MDP\Huffman\huffman.cpp(100,27): error C3536: 'fr': cannot be used before it is initialized
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(71,19): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(254,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(265,20): warning C4244: 'argument': conversion from 'uint64_t' to '_Elem', possible loss of data
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(265,20): warning C4244:         with
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(265,20): warning C4244:         [
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(265,20): warning C4244:             _Elem=char
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(265,20): warning C4244:         ]
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(92,11): warning C4244: '+=': conversion from '_Ty2' to 'uint32_t', possible loss of data
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(92,11): warning C4244:         with
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(92,11): warning C4244:         [
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(92,11): warning C4244:             _Ty2=uint64_t
+C:\Users\dany0\Git\MDP\Huffman\huffman.cpp(92,11): warning C4244:         ]
+  Huffman.vcxproj -> C:\Users\dany0\Git\MDP\Huffman\x64\Debug\Huffman.exe
