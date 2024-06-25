@@ -5,11 +5,35 @@
 #include <cassert>
 #include <cstdint>
 #include <array>
+#include <algorithm>
+
 #include "mat.h"
 
 void error(const std::string& msg) {
 	std::cout << msg << '\n';
 	exit(EXIT_FAILURE);
+}
+
+bool save(const mat<uint8_t>& img, const std::string& filename) {
+	std::ofstream os(filename, std::ios::binary);
+	if (!os) {
+		return false;
+	}
+
+	os << "P7\n";
+	os << "WIDTH " << img.cols() << "\n";
+	os << "HEIGHT " << img.rows() << "\n";
+	os << "DEPTH 3\n";
+	os << "MAXVAL 255\n";
+	os << "TUPLTYPE RGB\n";
+	os << "ENDHDR\n";
+
+	for (int r = 0; r < img.rows(); r++) {
+		for (int c = 0; c < img.cols(); c++) {
+			os.put(img(r, c));
+		}
+	}
+	return true;
 }
 
 
@@ -104,9 +128,22 @@ mat<rgb>& load(mat<rgb>& img,const std::string& filename) {
 	return img;
 }
 
+void mirror(mat<rgb>& img) {
+	for (int r = 0; r < img.rows(); r++) {
+		for (int c = 0; c < img.cols(); c++) {
+			std::swap(img(r, img.cols() - c - 1)[0], img(r, c)[0]);
+			std::swap(img(r, img.cols() - c - 1)[1], img(r, c)[1]);
+			std::swap(img(r, img.cols() - c - 1)[2], img(r, c)[2]);
+		}
+	}
+
+
+}
+
 int main() {
 	mat<rgb> img;
 	load(img, "laptop.pam");
+	mirror(img);
 	save(img, "reddd.pam");
 	return 0;
 }

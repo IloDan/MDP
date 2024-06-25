@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Danilo\\Git\\MDP\\Base64\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17EE74C7-1458-407A-9BE6-C2EFDFB1CF83}|Base64.vcxproj|C:\\Users\\Danilo\\Git\\MDP\\Base64\\base64.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{17EE74C7-1458-407A-9BE6-C2EFDFB1CF83}|Base64.vcxproj|solutionrelative:base64.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17EE74C7-1458-407A-9BE6-C2EFDFB1CF83}|Base64.vcxproj|C:\\Users\\Danilo\\Git\\MDP\\Base64\\base64.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{17EE74C7-1458-407A-9BE6-C2EFDFB1CF83}|Base64.vcxproj|solutionrelative:base64.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Danilo\\Git\\MDP\\Write_int11\\write_int11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "base64.h",
+              "DocumentMoniker": "C:\\Users\\Danilo\\Git\\MDP\\Base64\\base64.h",
+              "RelativeDocumentMoniker": "base64.h",
+              "ToolTip": "C:\\Users\\Danilo\\Git\\MDP\\Base64\\base64.h",
+              "RelativeToolTip": "base64.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-24T15:55:07.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "base64.cpp",
+              "DocumentMoniker": "C:\\Users\\Danilo\\Git\\MDP\\Base64\\base64.cpp",
+              "RelativeDocumentMoniker": "base64.cpp",
+              "ToolTip": "C:\\Users\\Danilo\\Git\\MDP\\Base64\\base64.cpp",
+              "RelativeToolTip": "base64.cpp",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-24T14:16:12.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "write_int11.cpp",
+              "DocumentMoniker": "C:\\Users\\Danilo\\Git\\MDP\\Write_int11\\write_int11.cpp",
+              "RelativeDocumentMoniker": "..\\Write_int11\\write_int11.cpp",
+              "ToolTip": "C:\\Users\\Danilo\\Git\\MDP\\Write_int11\\write_int11.cpp",
+              "RelativeToolTip": "..\\Write_int11\\write_int11.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-24T16:07:19.201Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
