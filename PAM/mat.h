@@ -12,7 +12,7 @@ struct mat {
 	int rows() const { return rows_; }
 	int cols() const { return cols_; }
 	int size() const { return rows_ * cols_; }
-	size_t raw_size() { return rows_ * cols_ * sizeof(T); }
+	size_t raw_size() const { return rows_ * cols_ * sizeof(T); }
 
 	void resize(int rows, int cols) {
 		rows_ = rows;
@@ -32,6 +32,10 @@ struct mat {
 
 	const char* raw_data() const {
 		return reinterpret_cast<const char*>(&data_[0]);
+	}
+	
+	char* raw_data() {
+		return reinterpret_cast<char*>(&data_[0]);
 	}
 };
 

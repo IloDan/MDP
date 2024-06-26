@@ -1,0 +1,37 @@
+﻿  y4m_color.cpp
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,28): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,28): warning C4305:         with
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,28): warning C4305:         [
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,28): warning C4305:             _Ty=float
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,28): warning C4305:         ]
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,38): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,38): warning C4305:         with
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,38): warning C4305:         [
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,38): warning C4305:             _Ty=float
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,38): warning C4305:         ]
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,45): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,45): warning C4305:         with
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,45): warning C4305:         [
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,45): warning C4305:             _Ty=float
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,45): warning C4305:         ]
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,52): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,52): warning C4305:         with
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,52): warning C4305:         [
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,52): warning C4305:             _Ty=float
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,52): warning C4305:         ]
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,60): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,60): warning C4305:         with
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,60): warning C4305:         [
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,60): warning C4305:             _Ty=float
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,60): warning C4305:         ]
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,68): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,68): warning C4305:         with
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,68): warning C4305:         [
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,68): warning C4305:             _Ty=float
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,68): warning C4305:         ]
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,75): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,75): warning C4305:         with
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,75): warning C4305:         [
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,75): warning C4305:             _Ty=float
+C:\Users\dany0\Git\MDP\YUV4\y4m_color.cpp(54,75): warning C4305:         ]
+  YUV4.vcxproj -> C:\Users\dany0\Git\MDP\YUV4\x64\Debug\YUV4.exe
