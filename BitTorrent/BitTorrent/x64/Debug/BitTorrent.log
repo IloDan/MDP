@@ -1,0 +1,3 @@
+﻿  torrent.cpp
+C:\Users\Danilo\Git\MDP\BitTorrent\torrent.cpp(17,10): warning C4101: 'integ': unreferenced local variable
+  BitTorrent.vcxproj -> C:\Users\Danilo\Git\MDP\BitTorrent\x64\Debug\BitTorrent.exe

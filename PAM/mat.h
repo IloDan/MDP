@@ -3,10 +3,10 @@
 #include <vector>
 #include <cassert>
 template <typename T>
-struct mat {
+class mat {
 	int rows_, cols_;
 	std::vector<T> data_;
-
+public:
 	mat(int rows = 0, int cols = 0) : rows_(rows), cols_(cols), data_(rows* cols) {}
 
 	int rows() const { return rows_; }
