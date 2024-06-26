@@ -1,0 +1,9 @@
+﻿  packbits_extension.cpp
+C:\Users\Danilo\Git\MDP\Packbits\packbits_extension.cpp(14,9): warning C4244: 'argument': conversion from 'uint16_t' to '_Elem', possible loss of data
+C:\Users\Danilo\Git\MDP\Packbits\packbits_extension.cpp(14,9): warning C4244:         with
+C:\Users\Danilo\Git\MDP\Packbits\packbits_extension.cpp(14,9): warning C4244:         [
+C:\Users\Danilo\Git\MDP\Packbits\packbits_extension.cpp(14,9): warning C4244:             _Elem=char
+C:\Users\Danilo\Git\MDP\Packbits\packbits_extension.cpp(14,9): warning C4244:         ]
+C:\Users\Danilo\Git\MDP\Packbits\packbits_extension.cpp(62,11): warning C4309: 'argument': truncation of constant value
+C:\Users\Danilo\Git\MDP\Packbits\packbits_extension.cpp(116,11): warning C4309: 'argument': truncation of constant value
+  Packbits.vcxproj -> C:\Users\Danilo\Git\MDP\Packbits\x64\Debug\Packbits.exe
